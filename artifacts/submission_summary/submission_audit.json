@@ -11,7 +11,7 @@
     "best_params.json": true,
     "dataset_profile.json": true,
     "narrative_content.json": true,
-    "review_pack.md": true,
+    "project_summary.md": true,
     "target_distribution.png": true,
     "correlation_heatmap.png": true,
     "model_rmse_comparison.png": true,

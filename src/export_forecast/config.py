@@ -5,7 +5,7 @@ DATA_DIR = PROJECT_ROOT / "data"
 RAW_DATA_DIR = DATA_DIR / "raw"
 PROCESSED_DATA_DIR = DATA_DIR / "processed"
 ARTIFACTS_DIR = PROJECT_ROOT / "artifacts"
-REVIEW_DIR = ARTIFACTS_DIR / "review_pack"
+SUMMARY_DIR = ARTIFACTS_DIR / "submission_summary"
 MODELS_DIR = PROJECT_ROOT / "models"
 FIGURES_DIR = PROJECT_ROOT / "figures"
 
@@ -72,12 +72,3 @@ MODEL_DISPLAY_NAMES = {
     "xgboost": "XGBoost",
     "mlp": "PyTorch MLP",
 }
-
-MANUAL_REVIEW_SECTIONS = [
-    "Executive summary",
-    "Problem importance paragraph",
-    "EDA captions",
-    "Model comparison interpretation",
-    "SHAP interpretation paragraph",
-    "Final deployed app QA",
-]

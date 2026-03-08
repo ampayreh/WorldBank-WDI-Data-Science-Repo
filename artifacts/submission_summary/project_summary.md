@@ -1,12 +1,4 @@
-# Review Pack
-
-## Manual sign-off checklist
-- [ ] Executive summary
-- [ ] Problem importance paragraph
-- [ ] EDA captions
-- [ ] Model comparison interpretation
-- [ ] SHAP interpretation paragraph
-- [ ] Final deployed app QA
+# Project Summary
 
 ## Dataset facts
 - Modeling rows: 5,025
@@ -22,16 +14,16 @@
 - PyTorch MLP: RMSE $90,991,339,865, MAE $27,894,550,756, R^2 0.907
 
 ## SHAP top features
-- num__imports_usd: mean |SHAP| = 1.1198
-- num__lag_1_exports_usd: mean |SHAP| = 1.0452
-- num__gdp_usd: mean |SHAP| = 0.5229
-- num__lag_1_imports_usd: mean |SHAP| = 0.0742
-- num__population: mean |SHAP| = 0.0569
-- num__year: mean |SHAP| = 0.0305
-- num__trade_share_pct: mean |SHAP| = 0.0108
-- num__manufacturing_share_pct: mean |SHAP| = 0.0090
-- num__fdi_inflows_usd: mean |SHAP| = 0.0078
-- num__gdp_per_capita_usd: mean |SHAP| = 0.0028
+- `num__imports_usd`: mean |SHAP| = 1.1198
+- `num__lag_1_exports_usd`: mean |SHAP| = 1.0452
+- `num__gdp_usd`: mean |SHAP| = 0.5229
+- `num__lag_1_imports_usd`: mean |SHAP| = 0.0742
+- `num__population`: mean |SHAP| = 0.0569
+- `num__year`: mean |SHAP| = 0.0305
+- `num__trade_share_pct`: mean |SHAP| = 0.0108
+- `num__manufacturing_share_pct`: mean |SHAP| = 0.0090
+- `num__fdi_inflows_usd`: mean |SHAP| = 0.0078
+- `num__gdp_per_capita_usd`: mean |SHAP| = 0.0028
 
 ## Plot inventory with factual notes
 - `target_distribution`: Exports are strongly right-skewed. Median exports are $5,126,000,000 and the maximum reaches $3,576,653,000,000.
@@ -41,7 +33,7 @@
 - `imports_vs_exports`: Imports and exports correlate at 0.95, suggesting that more trade-connected economies tend to move both measures together.
 - `correlation_heatmap`: The strongest off-diagonal correlation is between exports_usd and lag_1_exports_usd at 0.99.
 
-## Final reminders
-- Edit `artifacts/narrative_content.json` before submission.
-- Confirm every interpretation sentence matches the chart or metric it references.
-- Test the deployed app in an incognito window before submitting the link.
+## Generated deliverables
+- Saved models for Linear Regression, Decision Tree, Random Forest, XGBoost, and PyTorch MLP
+- Streamlit app assets for descriptive analytics, model performance, and SHAP explainability
+- Narrative content file used directly by the deployed application

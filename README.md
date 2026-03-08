@@ -8,7 +8,7 @@ The repository automates:
 - feature engineering and preprocessing
 - model training and tuning
 - SHAP explainability
-- artifact generation for review
+- artifact generation for reporting and deployment
 - a four-tab Streamlit app that loads only saved artifacts
 
 ## Project layout
@@ -18,7 +18,7 @@ The repository automates:
 - `src/export_forecast/`: reusable data, modeling, plotting, and app utilities
 - `models/`: saved sklearn and PyTorch models
 - `figures/`: exported figures for the app
-- `artifacts/`: metrics, params, narrative template, SHAP summaries, and review pack
+- `artifacts/`: metrics, params, narrative content, SHAP summaries, and submission summary
 
 ## Local setup
 

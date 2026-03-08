@@ -16,9 +16,9 @@ from export_forecast.artifacts import (  # noqa: E402
     save_dataset_outputs,
     save_feature_input_artifacts,
     save_metrics_outputs,
-    write_narrative_template,
-    write_review_pack,
-    write_rubric_audit,
+    write_narrative_content,
+    write_project_summary,
+    write_submission_audit,
 )
 from export_forecast.config import ARTIFACTS_DIR, RANDOM_STATE, TARGET_COLUMN  # noqa: E402
 from export_forecast.data import build_modeling_dataset, split_train_test  # noqa: E402
@@ -79,9 +79,9 @@ def main() -> None:
             indent=2,
         )
 
-    write_narrative_template(dataset_profile, best_model_info, shap_summary, plot_notes)
-    write_review_pack(dataset_profile, metrics_df, shap_summary, plot_notes)
-    write_rubric_audit(metrics_df)
+    write_narrative_content(dataset_profile, best_model_info, shap_summary, plot_notes)
+    write_project_summary(dataset_profile, metrics_df, shap_summary, plot_notes)
+    write_submission_audit(metrics_df)
 
     print("Training pipeline completed.")
     print(f"Modeling rows: {len(modeling_df):,}")

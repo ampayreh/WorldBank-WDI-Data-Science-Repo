@@ -103,12 +103,6 @@ metric_cols[3].markdown(
     unsafe_allow_html=True,
 )
 
-if narrative.get("manual_review_required", False):
-    st.warning(
-        "Manual review is still required for the executive summary, plot captions, "
-        "model comparison text, and SHAP interpretation before submission."
-    )
-
 tab_summary, tab_descriptive, tab_models, tab_explain = st.tabs(
     [
         "Executive Summary",
