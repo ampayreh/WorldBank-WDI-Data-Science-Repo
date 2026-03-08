@@ -1,14 +1,20 @@
 from __future__ import annotations
 
 import os
+import sys
 from pathlib import Path
 
 import pandas as pd
 import streamlit as st
 
-os.environ.setdefault("MPLCONFIGDIR", str(Path(__file__).resolve().parent / ".mplconfig"))
+PROJECT_ROOT = Path(__file__).resolve().parent
+SRC_DIR = PROJECT_ROOT / "src"
+if str(SRC_DIR) not in sys.path:
+    sys.path.insert(0, str(SRC_DIR))
 
-from src.export_forecast.app_utils import (  # noqa: E402
+os.environ.setdefault("MPLCONFIGDIR", str(PROJECT_ROOT / ".mplconfig"))
+
+from export_forecast.app_utils import (  # noqa: E402
     figure_path,
     format_currency,
     load_best_params,
@@ -20,7 +26,7 @@ from src.export_forecast.app_utils import (  # noqa: E402
     make_custom_shap_figure,
     predict_single_row,
 )
-from src.export_forecast.config import MODEL_DISPLAY_NAMES, MODEL_FEATURES  # noqa: E402
+from export_forecast.config import MODEL_DISPLAY_NAMES, MODEL_FEATURES  # noqa: E402
 
 
 st.set_page_config(

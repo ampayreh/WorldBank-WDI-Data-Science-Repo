@@ -11,7 +11,14 @@ import shap
 import streamlit as st
 import torch
 
-from .config import ARTIFACTS_DIR, FIGURES_DIR, MODEL_DISPLAY_NAMES, MODEL_FEATURES, MODELS_DIR
+from .config import (
+    ARTIFACTS_DIR,
+    FIGURES_DIR,
+    MODEL_DISPLAY_NAMES,
+    MODEL_FEATURES,
+    MODELS_DIR,
+    PROCESSED_DATA_DIR,
+)
 from .models import ExportMLP
 
 
@@ -27,7 +34,7 @@ def load_metrics() -> pd.DataFrame:
 
 @st.cache_data
 def load_dataset() -> pd.DataFrame:
-    return pd.read_csv(Path("data/processed/modeling_dataset.csv"))
+    return pd.read_csv(PROCESSED_DATA_DIR / "modeling_dataset.csv")
 
 
 @st.cache_data
