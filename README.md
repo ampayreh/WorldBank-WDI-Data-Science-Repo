@@ -30,15 +30,6 @@ python scripts/train_pipeline.py
 streamlit run streamlit_app.py
 ```
 
-## Manual review before submission
-
-The code intentionally leaves only the high-risk narrative sections for manual sign-off. Before submitting:
-
-1. Open `artifacts/narrative_content.json` and rewrite or approve the executive summary, EDA captions, model comparison paragraph, and SHAP interpretation.
-2. Read `artifacts/review_pack/review_pack.md`.
-3. Launch the Streamlit app and confirm that no placeholder text remains.
-4. Deploy the app on Streamlit Community Cloud and test the public URL in an incognito window.
-
 ## Deployment notes
 
 Use `streamlit_app.py` as the app entrypoint. The app expects the saved artifacts in this repository and does not retrain models on startup.
