@@ -1,0 +1,7 @@
+{
+  "model_name": "linear_regression",
+  "display_name": "Linear Regression",
+  "rmse": 28826503003.44539,
+  "mae": 9062467079.580484,
+  "r2": 0.9906854833635221
+}

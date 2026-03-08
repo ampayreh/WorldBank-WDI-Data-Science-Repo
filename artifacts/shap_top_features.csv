@@ -1,0 +1,25 @@
+feature,mean_abs_shap
+num__imports_usd,1.119764778923275
+num__lag_1_exports_usd,1.0451561991799936
+num__gdp_usd,0.5229050449947747
+num__lag_1_imports_usd,0.07424679955441581
+num__population,0.05689091062296647
+num__year,0.03047002132761021
+num__trade_share_pct,0.01082551310582009
+num__manufacturing_share_pct,0.009009855134040115
+num__fdi_inflows_usd,0.007751707904824676
+num__gdp_per_capita_usd,0.002772265381690038
+num__inflation_pct,0.0024575272206585684
+num__lag_1_export_growth_pct,0.0021907170761512446
+cat__region_Latin America & Caribbean ,0.0021559498175823455
+cat__income_level_Low income,0.0007034476195229216
+"cat__region_Middle East, North Africa, Afghanistan & Pakistan",0.0004933402800816109
+cat__income_level_Upper middle income,0.00041963809305646765
+cat__income_level_Lower middle income,0.0004075311367594017
+cat__region_East Asia & Pacific,0.0003534026076124672
+cat__income_level_High income,0.0002797774541541002
+cat__region_Europe & Central Asia,0.00022842579625042474
+cat__region_Sub-Saharan Africa ,0.00016840286241301018
+cat__region_North America,0.00012018845176013806
+cat__region_South Asia,2.1681112990093754e-05
+cat__income_level_Not classified,6.896462477743626e-06

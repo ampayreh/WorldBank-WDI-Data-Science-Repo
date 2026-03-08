@@ -1,0 +1,25 @@
+{
+  "models_present": [
+    "decision_tree",
+    "linear_regression",
+    "mlp",
+    "random_forest",
+    "xgboost"
+  ],
+  "files_present": {
+    "metrics_summary.csv": true,
+    "best_params.json": true,
+    "dataset_profile.json": true,
+    "narrative_content.json": true,
+    "review_pack.md": true,
+    "target_distribution.png": true,
+    "correlation_heatmap.png": true,
+    "model_rmse_comparison.png": true,
+    "predicted_vs_actual_grid.png": true,
+    "mlp_training_history.png": true,
+    "shap_summary.png": true,
+    "shap_bar.png": true,
+    "shap_waterfall_reference.png": true
+  },
+  "all_checks_passed": true
+}

@@ -1,0 +1,28 @@
+{
+  "rows_raw_panel": 5425,
+  "rows_modeling": 5025,
+  "countries": 207,
+  "years": [
+    2000,
+    2024
+  ],
+  "target": "exports_usd",
+  "numeric_feature_count": 12,
+  "categorical_feature_count": 2,
+  "missing_share_by_feature": {
+    "year": 0.0,
+    "imports_usd": 0.0023880597014925373,
+    "gdp_usd": 0.01671641791044776,
+    "gdp_per_capita_usd": 0.01671641791044776,
+    "population": 0.0,
+    "inflation_pct": 0.12139303482587065,
+    "fdi_inflows_usd": 0.050746268656716415,
+    "manufacturing_share_pct": 0.11383084577114427,
+    "trade_share_pct": 0.14965174129353234,
+    "lag_1_exports_usd": 0.041393034825870645,
+    "lag_1_imports_usd": 0.04358208955223881,
+    "lag_1_export_growth_pct": 0.08696517412935323,
+    "region": 0.0,
+    "income_level": 0.0
+  }
+}

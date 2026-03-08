@@ -1,0 +1,16 @@
+{
+  "manual_review_required": true,
+  "dataset_summary": "[MANUAL REVIEW REQUIRED] Replace this with your own paragraph. Safe facts: the modeling panel contains 5,025 country-year rows across 207 economies from 2000 to 2024, and the target is merchandise exports in current US$.",
+  "problem_importance": "[MANUAL REVIEW REQUIRED] Explain why forecasting export value matters in your own words. Tie it to trade planning, macro monitoring, or policy prioritization.",
+  "approach_findings": "[MANUAL REVIEW REQUIRED] Replace this with your own 1-2 paragraphs. Safe facts: the best held-out model is Linear Regression with RMSE $28,826,503,003, MAE $9,062,467,080, and R^2 0.991.",
+  "captions": {
+    "target_distribution": "[MANUAL REVIEW REQUIRED] Exports are strongly right-skewed. Median exports are $5,126,000,000 and the maximum reaches $3,576,653,000,000.",
+    "exports_by_region": "[MANUAL REVIEW REQUIRED] North America has the highest median export level in the panel. Regional spread is wide, which suggests structural differences matter.",
+    "gdp_vs_exports": "[MANUAL REVIEW REQUIRED] GDP and exports have a correlation of 0.83 in the raw panel. The positive slope supports including macro scale variables in the models.",
+    "lag_exports_vs_current": "[MANUAL REVIEW REQUIRED] Prior-year exports correlate with current exports at 0.99. That persistence should help both tree models and the MLP.",
+    "imports_vs_exports": "[MANUAL REVIEW REQUIRED] Imports and exports correlate at 0.95, suggesting that more trade-connected economies tend to move both measures together.",
+    "correlation_heatmap": "[MANUAL REVIEW REQUIRED] The strongest off-diagonal correlation is between exports_usd and lag_1_exports_usd at 0.99."
+  },
+  "model_comparison": "[MANUAL REVIEW REQUIRED] Compare the best model against the baseline and the MLP in your own words. Use the metrics table to support every claim.",
+  "shap_interpretation": "[MANUAL REVIEW REQUIRED] Start from this fact scaffold and rewrite it in your own words: the best tree-based model is Random Forest and its top SHAP feature is num__imports_usd."
+}

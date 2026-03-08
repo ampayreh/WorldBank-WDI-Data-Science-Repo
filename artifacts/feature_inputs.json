@@ -1,0 +1,104 @@
+{
+  "feature_labels": {
+    "year": "Year",
+    "imports_usd": "Merchandise imports (current US$)",
+    "gdp_usd": "GDP (current US$)",
+    "gdp_per_capita_usd": "GDP per capita (current US$)",
+    "population": "Population",
+    "inflation_pct": "Inflation, consumer prices (annual %)",
+    "fdi_inflows_usd": "FDI net inflows (current US$)",
+    "manufacturing_share_pct": "Manufacturing value added (% of GDP)",
+    "trade_share_pct": "Trade (% of GDP)",
+    "lag_1_exports_usd": "Prior-year exports (current US$)",
+    "lag_1_imports_usd": "Prior-year imports (current US$)",
+    "lag_1_export_growth_pct": "Prior-year export growth (%)",
+    "region": "Region",
+    "income_level": "Income level"
+  },
+  "numeric_defaults": {
+    "year": 2012.0,
+    "imports_usd": 7167000000.0,
+    "gdp_usd": 21606160663.0318,
+    "gdp_per_capita_usd": 5153.6916424375,
+    "population": 6899126.0,
+    "inflation_pct": 3.53410672858944,
+    "fdi_inflows_usd": 676521500.0,
+    "manufacturing_share_pct": 11.0868323583371,
+    "trade_share_pct": 76.9683583166821,
+    "lag_1_exports_usd": 5021000000.0,
+    "lag_1_imports_usd": 6950500000.0,
+    "lag_1_export_growth_pct": 7.148047007826053
+  },
+  "numeric_ranges": {
+    "year": {
+      "min": 2001.0,
+      "max": 2023.0
+    },
+    "imports_usd": {
+      "min": 210000000.0,
+      "max": 419286599999.99976
+    },
+    "gdp_usd": {
+      "min": 546830040.540273,
+      "max": 1524916715223.95
+    },
+    "gdp_per_capita_usd": {
+      "min": 444.199067529081,
+      "max": 54500.9260410217
+    },
+    "population": {
+      "min": 62735.6,
+      "max": 126358195.20000002
+    },
+    "inflation_pct": {
+      "min": -0.3914457837860684,
+      "max": 18.10010473362395
+    },
+    "fdi_inflows_usd": {
+      "min": -69728250.0,
+      "max": 48468280516.42427
+    },
+    "manufacturing_share_pct": {
+      "min": 1.9520764441760263,
+      "max": 23.023408168859277
+    },
+    "trade_share_pct": {
+      "min": 33.10615512103176,
+      "max": 168.9689681300755
+    },
+    "lag_1_exports_usd": {
+      "min": 22000000.0,
+      "max": 415714799999.99976
+    },
+    "lag_1_imports_usd": {
+      "min": 204750000.0,
+      "max": 411398250000.0
+    },
+    "lag_1_export_growth_pct": {
+      "min": -27.229571577847434,
+      "max": 48.07210620393157
+    }
+  },
+  "categorical_defaults": {
+    "region": "Europe & Central Asia",
+    "income_level": "High income"
+  },
+  "categorical_options": {
+    "region": [
+      "East Asia & Pacific",
+      "Europe & Central Asia",
+      "Latin America & Caribbean ",
+      "Middle East, North Africa, Afghanistan & Pakistan",
+      "North America",
+      "South Asia",
+      "Sub-Saharan Africa "
+    ],
+    "income_level": [
+      "High income",
+      "Low income",
+      "Lower middle income",
+      "Not classified",
+      "Upper middle income"
+    ]
+  }
+}
